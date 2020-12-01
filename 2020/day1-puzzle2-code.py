@@ -23,10 +23,6 @@ def n1n2n3(a, target):
         i2 = i1 + 1
         i3 = len(a) - 1
 
-        f = a[i1]
-        m = a[i2]
-        l = a[i3]
-
         while i2 < i3:
 
             if a[i1] + a[i2] + a[i3] == target:
