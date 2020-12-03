@@ -3,7 +3,7 @@
 # set path variables
 import os
 ROOTDIR = os.path.dirname(os.path.abspath(__file__))
-FILE = os.path.join(ROOTDIR, 'day1-puzzle1-input')
+FILE = os.path.join(ROOTDIR, 'puzzle1-input')
 
 # import data
 data_in = open(FILE, "r")
