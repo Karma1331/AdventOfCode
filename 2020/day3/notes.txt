@@ -1,0 +1,7 @@
+. = space
+# = tree
+
+starting at 0,0
+
+count all trees along slope 3,1
+

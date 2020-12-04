@@ -1,0 +1,45 @@
+read file
+initialize counter
+
+with open(FILE):
+    
+    tree_map = convert FILE to matrix
+    x = 0
+    y = 0
+
+    def CountTree(tree_map,x,y):
+        while not at bottom of matrix:
+
+            if x = last item:
+                x = -1
+
+            if tree_map[x+3][y+1] == '#':
+                counter += 1
+            
+            CountTree(tree_map,x,y)
+
+    def CountTree(x, y, tree_map):
+        
+        return
+        
+        # make sure we're not on last row
+        while y < len(tree_map) - 1:
+
+            # if at end of row, reposition x
+            if x == len(list(tree_map[x])) - 1:
+                x = -1
+            
+            # move x and y
+            x += 3
+            y += 1
+
+            # check if equal to char
+            if tree_map[x][y] == '#':
+                counter += 1
+
+            CountTree(x, y)
+        
+        else:
+            print(counter)
+
+CountTree(0, 0, tree_map)
