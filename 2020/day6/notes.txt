@@ -1,0 +1,16 @@
+Part 1:
+    only questions are answer == yes are given
+
+    1. split by blankline
+    2. add all letters to a SET
+    3. get length of # of letters in SET
+    4. add length to counter, += ea iter
+
+Part 2:
+    answer only counts if everyone in that group answered yes
+
+    1. split by blankline
+    2. split by linebreak
+    3. match chars accross each list of 2 and keep only in common
+    4. get length of list
+    5. add legth to counter, += ea iter

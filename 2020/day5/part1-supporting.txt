@@ -1,0 +1,12 @@
+ROW =  FBFBBFFRLR
+       0101100     = 44
+COL =         101  = 5
+
+SEAT ID = ROW * 8 + COL = 357
+
+F = FRONT   = 0
+B = BACK    = 1
+L = LEFT    = 0
+R = RIGHT   = 1
+
+First 7 char are either F or B
