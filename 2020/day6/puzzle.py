@@ -3,7 +3,6 @@
 # staging
 import os
 from collections import Counter
-from itertools import dropwhile
 ROOTDIR = os.path.dirname(os.path.abspath(__file__))
 FILE = os.path.join(ROOTDIR, 'input.txt')
 
