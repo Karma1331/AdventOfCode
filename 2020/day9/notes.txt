@@ -1,0 +1,9 @@
+number = x
+group = continuous numbers added together
+
+while group < number:
+    group += index(group) + 1
+
+if group == number:
+    return n1, n2
+    
